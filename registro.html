@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registro.css">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Kanit:ital@1&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="redes">
+                <iconify-icon class="icon" icon="typcn:social-facebook" class="icono"></iconify-icon>
+                <iconify-icon class="icon" icon="typcn:social-instagram" class="icono"></iconify-icon>
+            </div>
+            <div>
+                <p>3 CUOTAS SIN INTERES</p>
+            </div>
+            <div class="carrito">
+                <iconify-icon class="icon" icon="material-symbols:search-rounded"></iconify-icon>
+                <iconify-icon class="icon" icon="material-symbols:person"></iconify-icon>
+                <h3>MI CARRITO</h3>
+                <iconify-icon class="icon" icon="ic:baseline-local-grocery-store"></iconify-icon>
+            </div>
+        </nav>
+        <div class="cuerpo-menu">
+            <div class="menu">
+                <h1 class="nombre-tienda">Next Shoes</h1>
+                <div class="botonMenu">
+                    <iconify-icon icon="typcn:th-menu" class="icono" id="desplegar-menu"></iconify-icon>
+                    <iconify-icon icon="material-symbols:close" class="icono" id="contraer-menu"></iconify-icon>
+                </div>
+                <div class="menuDesplegable">
+                    <div id="items-menu">
+                        <a href="index.html"><h1 class="opciones">Inicio</h1></a>
+                        <a href="#"><h1 class="opciones">Mujer</h1></a>
+                        <a href="#"><h1 class="opciones">Hombre</h1></a>
+                        <a href="#"><h1 class="opciones">Marcas</h1></a>
+                        <a href="#"><h1 class="opciones">Sale</h1></a>
+                    </div>
+                </div>
+                <a href="#">Registro</a>
+            </div>
+        </div>
+    </header>
+    
+    <section class="formulario">    
+        
+        <form>  
+            <div class="contenedor">
+                <div class="izquierda">
+                    <div class="registro">Registro</div>
+                    <div class="terminos">Al registrarse, usted acepta todos los terminos y condiciones de nuestra marca.</div>
+                </div>
+                
+                <div class="derecha">
+                    <div class="form">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" value="" >
+                        <label for="nombre">Nombre de usuario</label>
+                        <input type="text" name="nombre" id="nombre" value="">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="contraseña" id="contraseña">
+                        <label for="image">Adjunte su foto de perfil</label>
+                        <input type="file" name="image" id="image">
+                        <button type="submit" id="submit" name="submit"> Enviar </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+    
+    <footer>
+        <div class="secciones">
+            <div>
+                <h4>SHOP</h4>
+                <ul>
+                    <li>MUJER</li>
+                    <li>HOMBRE</li>
+                    <li>COLEGIAL</li>
+                    <li>TABLA DE TALLES</li>
+                </ul>
+            </div>
+            <div>
+                <h4>FB</h4>
+                <ul>
+                    <li>Locales</li>
+                    <li>Cuidados</li>
+                    <li>Contacto</li>
+                    <li>Guia de compra</li>
+                    <li>Privacidad</li>
+                    <li>Terminos y condiciones</li>
+                    <li>Politica de reembolso</li>
+                </ul>
+            </div>
+            <div class="form-inscripcion">
+                <h5>Sumate a nuestro Newsletter!</h5>
+                <p>Descubri las novedades y promociones</p>
+                <form action="#" class="form-footer">
+                    <input type="text" placeholder="Introduce la direccion de correo electronico">
+                    <input type="submit" value="Unirse">
+                </form>
+            </div>
+        </div>
+        <div class="derechos">
+            <div class="autor">
+                <iconify-icon icon="typcn:social-facebook" class="icon"></iconify-icon>
+                <iconify-icon icon="typcn:social-instagram" class="icon"></iconify-icon>
+                <p>Derechos de Autor 2023 NEXT SHOES.</p>
+                <p>Desarrollado por Agustin Segovia</p>
+            </div>
+            <img src="img/data-fiscal.jpg" alt="Data Fiscal" width="80">
+        </div>
+    </footer>
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
